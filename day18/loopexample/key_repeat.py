@@ -10,4 +10,4 @@ while True:
         print("반복을 중단합니다")
         break
     else: 
-        print("기능을 지원하지 않습니다")
+        print("기능을 지원하지 않습니다 다시 입력해 주세요.")
