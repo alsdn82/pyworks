@@ -27,3 +27,10 @@ print('\n' + '='*20)
 for i in score:
     if i % 2 == 1:
         print(i, end=' ')
+
+
+print()
+print(score)
+del score[0]   # 삭제
+score[1] = 100   # 수정
+print(score)
