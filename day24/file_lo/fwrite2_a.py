@@ -1,4 +1,5 @@
 # a모드는 주로 input() 코드에서 필수 사용.
+
 f = open("c:/pyfile/number2.txt", 'a')
 f.write("%d\n" % (100/2))
 f.write("%.2f\n" % 7.34)

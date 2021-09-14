@@ -14,7 +14,7 @@ dict = {
 print("♣용어 사전♣")
 try:
     word = input("정의되어 있는 단어를 입력하세요 : ")
-    definition = dict[word]
+    definition = dict[word]   # difinition = 용어의 뜻(value)
     print(definition)
 except:
     print("찾는 단어가 없습니다")
