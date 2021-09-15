@@ -1,5 +1,5 @@
 # 이차원 리스트 - 리스트 내부에 또 리스트가 있음
-'''
+
 d2 = [
     [10, 20],   # 1행
     [30, 40]    # 2행
@@ -32,9 +32,9 @@ print(d1)
 print(len(d1)) # 3
 
 sum_v = 0
-avg = 0.0
 for i in d1:
     sum_v += i
 avg = sum_v / len(d1)
 print("합계 :", sum_v)
 print("평균 : %.2f" % avg)
+'''

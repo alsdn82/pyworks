@@ -7,6 +7,7 @@ c2 = Customer(102, "놀부")
 gold1 = GoldCustomer(201, '콩쥐')
 gold2 = GoldCustomer(202, '팥쥐')
 vip = VIPCustomer(301, '심청', 777)
+
 # 상품 구매
 price = 10000
 c1.calc_price(price)
