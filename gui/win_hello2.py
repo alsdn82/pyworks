@@ -4,7 +4,7 @@ from tkinter import *
 
 def click():
     text = entry.get()
-    print("안녕~" + text)
+    print("안녕~ " + text)
 
 
 
